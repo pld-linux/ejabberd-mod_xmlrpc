@@ -9,7 +9,7 @@ License:	GPL
 Group:		Applications/Communications
 # svn export http://svn.process-one.net/ejabberd-modules/mod_xmlrpc/trunk ejabberd-mod_xmlrpc
 Source0:	%{name}-%{snap}.tar.bz2
-# Source0-md5:	4792e19865defb7fffd17bd63432994f
+# Source0-md5:	c591b03e2331fcfc12c4e13a7cf23c2d
 BuildRequires:	erlang >= R9C
 BuildRequires:	rpmbuild(macros) >= 1.268
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
